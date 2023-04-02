@@ -52,7 +52,7 @@ buildNpmPackage.override { inherit fetchNpmDeps; } {
   patches = [ ./package-lock-json.patch ];
 
   makeCacheWritable = true;
-  npmDepsHash = "sha256-qQ9myNBdXmS+rl3Tb1Iy0k3/dU8LBhIVJhExqxvbIrs=";
+  npmDepsHash = "sha256-DJkGxFP3WzHJus0DMHzCuUNVYb0EGX/H14LGXyEp3O8=";
 
   dontNpmBuild = true;
 
